@@ -1,0 +1,22 @@
+# Environment files
+.env
+myenv
+
+hour_tracker.json
+
+timetable_state.json
+
+detailed_timetable_batch_A.csv
+detailed_timetable_batch_B.csv
+detailed_timetable_batch_C.csv
+
+timetable_Batch_A.csv
+timetable_Batch_B.csv
+timetable_Batch_C.csv
+
+frontend
+
+# firebase servise account key
+serviceAccountKey.json
+
+SyncAble-Frontend

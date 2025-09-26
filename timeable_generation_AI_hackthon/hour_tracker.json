@@ -1,0 +1,24 @@
+{
+    "Batch_A": {
+        "Math": 16,
+        "Physics": 20,
+        "English": 11,
+        "CS_Theory": 16,
+        "Physics_Lab": -5
+    },
+    "Batch_B": {
+        "Math": 16,
+        "Chemistry": 16,
+        "Biology": 16,
+        "CS_Lab": -1,
+        "Economics": 9
+    },
+    "Batch_C": {
+        "Math": 10,
+        "Physics": 12,
+        "Chemistry": 9,
+        "Psychology": 8,
+        "AI_ML": 13,
+        "Chemistry_Lab": -5
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "DAYS": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "TIMESLOTS": ["9-10", "10-11", "11-12", "12-1", "2-3", "3-4"],
+    "SEMESTER_WEEKS": 15,
+    "BATCHES": ["Batch_A", "Batch_B", "Batch_C"],
+    "ROOMS": {
+        "R101": {"type": "Lecture"},
+        "R102": {"type": "Lecture"},
+        "R103": {"type": "Lecture"},
+        "R104": {"type": "Lecture"},
+        "L201": {"type": "Lab"},
+        "L202": {"type": "Lab"},
+        "L203": {"type": "Lab"}
+    },
+    "SUBJECTS": {
+        "Math": {"is_lab": false},
+        "Physics": {"is_lab": false},
+        "English": {"is_lab": false},
+        "CS_Theory": {"is_lab": false},
+        "Physics_Lab": {"is_lab": true},
+        "Chemistry": {"is_lab": false},
+        "Biology": {"is_lab": false},
+        "CS_Lab": {"is_lab": true},
+        "Economics": {"is_lab": false},
+        "Psychology": {"is_lab": false},
+        "AI_ML": {"is_lab": false},
+        "Chemistry_Lab": {"is_lab": true}
+    },
+    "TEACHERS": {
+        "Mr. Alpha": ["Math", "Physics"],
+        "Ms. Beta": ["Chemistry", "Biology"],
+        "Dr. Gamma": ["CS_Theory", "CS_Lab", "AI_ML"],
+        "Mr. Delta": ["Physics", "Physics_Lab"],
+        "Ms. Epsilon": ["English", "Economics"],
+        "Dr. Zeta": ["Psychology", "Biology"],
+        "Prof. Theta": ["Chemistry", "Chemistry_Lab"]
+    },
+    "TEACHER_AVAILABILITY": {
+        "Mr. Alpha": ["9-10", "10-11", "11-12"],
+        "Ms. Beta": ["9-10", "10-11", "11-12"],
+        "Dr. Gamma": ["9-10", "10-11", "11-12"],
+        "Mr. Delta": ["9-10", "10-11", "11-12", "2-3"],
+        "Ms. Epsilon": ["12-1", "2-3", "3-4"],
+        "Dr. Zeta": ["12-1", "2-3", "3-4"],
+        "Prof. Theta": ["9-10", "10-11", "11-12", "12-1", "2-3", "3-4"]
+    },
+    "CONTRACTED_HOURS": {
+        "Batch_A": {"Math": 45, "Physics": 45, "English": 30, "CS_Theory": 30, "Physics_Lab": 15},
+        "Batch_B": {"Math": 45, "Chemistry": 45, "Biology": 30, "CS_Lab": 15, "Economics": 30},
+        "Batch_C": {"Math": 30, "Physics": 30, "Chemistry": 30, "Psychology": 30, "AI_ML": 30, "Chemistry_Lab": 15}
+    },
+    "COURSE_LOAD": {
+        "Batch_A": {"Math": 3, "Physics": 3, "English": 2, "CS_Theory": 2, "Physics_Lab": 1},
+        "Batch_B": {"Math": 3, "Chemistry": 3, "Biology": 2, "CS_Lab": 1, "Economics": 2},
+        "Batch_C": {"Math": 2, "Physics": 2, "Chemistry": 2, "Psychology": 2, "AI_ML": 2, "Chemistry_Lab": 1}
+    }
+}

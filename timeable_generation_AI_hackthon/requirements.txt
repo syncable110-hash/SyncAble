@@ -1,0 +1,11 @@
+langgraph
+langchain-together
+langchain
+dotenv
+holidays
+dateparser
+colorama
+Flask
+Flask-Cors
+firebase-admin
+python-dotenv
